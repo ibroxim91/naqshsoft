@@ -1,1 +1,4 @@
 # naqshsoft
+
+*.pyc
+__pycache__
