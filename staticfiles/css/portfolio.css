@@ -1,0 +1,68 @@
+
+
+.portfolio-page-id {
+    padding: 150px 0 50px 0;
+    background-image: url("../images/bg-naqsh-portfolio.png");
+    background-position: center center;
+    background-size: cover;
+}
+
+.portfolio-page-id .portfolio-page-title h1 {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 73px;
+}
+
+.portfolio-page-id .text-box h2 {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+}
+
+.portfolio-page-id .text-box p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.portfolio-page-id .text-box p:nth-child(2) {
+    margin: 30px 0;
+}
+
+
+.portfolio-youtube-id {
+    padding: 50px 0;
+    background-image: url("../images/bg-naqsh.potfolio.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+.portfolio-youtube-id .youtube-title h2 {
+
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 73px;
+    margin: 0 0 50px 0;
+}
+
+
+
+
+
+
+/* portfolio-comfort-id */
+.portfolio-comfort-id {
+    padding: 35px 0;
+}
+
+.portfolio-comfort-id .comfort-title h2 {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 73px;
+}
+
+.portfolio-comfort-id .comfort-card p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+}

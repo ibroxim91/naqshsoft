@@ -1,0 +1,30 @@
+en = {
+    'home':"Home",
+    'menu':'Menu',
+    'about_us':"About us",
+    'service':"Services",
+    'news':"News",
+    'contact':"Contact",
+    'comunityy':"Comunity",
+    'portfolioo':"Portfolio",
+    'best_digital':"THE BEST DIGITAL",
+    'marketing':"MARKETING",
+    'agency':"AGENCY",
+    'your_business':"Take your business",
+    'to_new_level ':"to a new level ",
+    'text':"Don't have time but my moms cat. And unless it's just a free kick. Age mascara running android in pakistan. Partners phasellus feugiat to reduce the production and element of the admin bar for. Scientists don't pull my or your child. Dui neque, supplier spanned the laughter of the real estate. Shooting settings of the camera free, and always funny cartoon. Life skills no please create unlimited bow.",
+    'detail':'In detail',
+    'our_comunity':'Our comunity',
+    'comunity_title':"Or live life tomorrow or blockage to that. Time for tennis right now, a, photography, bed.",
+    'contact_us':'Contact us',
+    'name_surname':'Name-surname',
+    'phone_number':'Phone number',
+    'send':'Send',
+    'information':'Information',
+    'map':'Andijan region, Andijan city great Turan 21, behind the bus station.',
+    'footer_title_1':"Pattern soft digital marketing",
+    'footer_title_2':"official Web page of the agency",
+         'read_more':"Batafsil"  
+
+
+}

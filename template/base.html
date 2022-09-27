@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="/static/library/bootstrap-4.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+
+    <link rel="stylesheet" href="/static/css/media.css">
+
+    <link rel="icon" href="/static/images/logo-image.png" type="image/png">
+    
+    <link rel="stylesheet" href="/static/library/UIkit/css/uikit.min.css">
+    
+    
+    <link rel="stylesheet" href="/static/library/aos-master/dist/aos.css">
+
+    <link rel="stylesheet" href="/static/library/swiper/swiper.css">
+    
+    <link rel="stylesheet" href="/static/library/fontawesome-free-6.2.0-web/css/all.min.css">
+    
+    <link rel="icon" href="/static/images/logo-image.png" type="image/png">
+    
+    <link rel="stylesheet" href="/static/css/portfolio.css">
+   
+    <link rel="stylesheet" href="/static/css/portfolio-media.css">
+    {% block title %} {% endblock title%}
+
+</head>
+<body>
+    
+    <header id="header" class="header-id">
+        <!-- navbar -->
+        <nav class="nav-id">
+            <div class="container-fluid">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="/static/images/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="my-nav d-none d-lg-block">
+
+                        
+
+                        <ul class="d-flex">
+                            <li><a href="#">{{ home }}</a></li>
+                            <li><a href="#about">{{ about_us }}</a></li>
+                            <li><a href="#services">{{ service }}</a></li>
+                            <!-- <li><a href="#team">{{ comunityy }}</a></li> -->
+                            <li><a href="#portfolio">{{ portfolioo }}</a></li>
+                            <li><a href="#contact">{{ contact }}</a></li>
+                        </ul>
+                        
+
+                    </div>
+                    <div class="language d-flex align-items-center d-lg-block">
+                        <div class="opener mr-3 d-block d-lg-none">
+                            <div class="fa-solid fa-bars fa-2x"></div>
+                        </div>
+                        <!-- <a href="#">
+                            <img src="/static/images/globus.png" alt="lang">
+                        </a> -->
+                        <!-- drowdown -->
+                        <a href="#" style="text-decoration:none;">
+                            <img src="/static/images/globus.png" alt="lang">
+                        </a>
+                        <div uk-dropdown class="rounded px-0">
+                            <ul class="">
+                                <li class="uk-nav-divider"></li>
+                                <li><a class="lan" href="/uz">UZ</a></li>
+                                <li><a  class="lan" href="/ru">RU</a></li>
+                                <li><a  class="lan" href="/en">En</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- dropdown end -->
+                    </div>
+                    <!-- res-nav -->
+                    <div class="res-nav d-lg-none">
+                        <div class="res-nav-content d-flex align-items-center justify-content-center ">
+                            <ul class="d-flex flex-column text-center">
+                                <li><a href="#">Asosiy</a></li>
+                                <li><a href="#about">Biz haqimizda</a></li>
+                                <li><a href="#services">Xizmatlar</a></li>
+                                <li><a href="#team">Jamoa</a></li>
+                                <li><a href="#portfolio">Portfolio</a></li>
+                                <li><a href="#contact">Aloqa</a></li>
+                            </ul>
+                            <div class="closer">
+                                <i class="fa-solid fa-times fa-2x"></i>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+        </nav>
+
+          
+     <div class="headers-content-id">
+        <div class="container-fluid">
+            <div class="headers-content-2">
+                <div class="for-z-index" data-aos="fade-left" data-aos-delay="400" data-aos-duration="600">
+                    <h2>Naqsh soft</h2>
+                    <h1>{{ best_digital }}<br> <span>{{ marketing }}</span> <br> {{ agency }}</h1>
+                    <a href="#portfolio">{{ read_more }}</a>
+                </div>
+                <img class="naqsh-right" src="/static/images/naqsh-header-right.png" alt="naqsh right">
+
+                <img class="naqsh-left" src="/static/images/naqsh-header-left.png" alt="naqsh left">
+            </div>
+        </div>
+    </div>
+
+
+
+        </header>
+
+        
+
+       
+    {% block content %}
+
+    {% endblock %}
+
+
+
+    <!-- contact -->
+    <div id="portfolio-contact" class="contact-id">
+        <div class="container-fluid">
+            <div class="contact-content">
+                <div class="row">
+                    <div class="col-12 col-lg-6 offset-lg-6 pl-0">
+                        <h2 data-aos="fade-right" data-aos-duration="500" data-aos-delay="300"
+                            class="text-center text-lg-left contact-title">{{ contact_us }}</h2>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-right" data-aos-duration="500" data-aos-delay="350">
+                    <div class="row">
+                        <div class="col-lg-6 d-none d-lg-block">
+                        </div>
+                        <div class="col-12 col-lg-6 pl-0">
+
+                            <div class="submit-form">
+                                <form action="#">
+                                    <label for="#">
+                                        {{ name_surname }}*
+                                        <input type="text" placeholder="" required>
+                                    </label>
+                                    <label for="#">
+                                        {{ phone_number }}*
+                                        <input type="number" placeholder="" required>
+                                    </label>
+                                    <button class="submit" type="submit">{{ send }}</button>
+                                </form>
+                            </div>
+                            
+                            <div class="my-modal text-center">
+                                <h3>Ma'lumotlar yuborildi</h3>
+                                <p>Kuting, xodimlarimiz yaqin orada siz bilan bog'lanishadi</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" src="/static/images/naqsh-footer.png"
+            alt="naqsh-footer">
+    </div>
+
+
+
+    
+
+    <!-- footer -->
+    <footer id="footer" class="footer-id py-5">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6 col-xl-3 mb-5 mb-md-5 mb-xl-0">
+                    <div class="logo-footer">
+                        <img src="/static/images/logo.png" alt="logo-footer">
+                        <h2>{{ footer_title_1 }}<br>{{ footer_title_1 }}</h2>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3 d-flex justify-lg-center mb-5 mb-md-5 mb-xl-0">
+                    <div class="footer-nav">
+                        <h3>{{ menu}}</h3>
+                        <ul class="d-flex flex-column">
+                            <li><a href="#">{{ home }}</a></li>
+                            <li><a href="#about">{{ about_us }}</a></li>
+                            <li><a href="#services">{{ service }}</a></li>
+                            <li><a href="#team">{{ comunityy }}</a></li>
+                            <li><a href="#portfolio">{{ portfolioo }}</a></li>
+                            <li><a href="#contact">{{ contact }}</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3 d-flex justify-lg-center mb-5 mb-md-5 mb-xl-0">
+                    <!-- footer-services -->
+                    <div class="footer-services">
+                        <h3>{{ service }}</h3>
+                        <ul class="d-flex flex-column">
+                            <li><a href="#services">Dizayn</a></li>
+                            <li><a href="#services">Brending</a></li>
+                            <li><a href="#services">UX/UI</a></li>
+                            <li><a href="#services">Logo</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3 mb-5 mb-md-5 mb-xl-0">
+                    <div class="footer-address">
+                        <h3>{{ information }}</h3>
+                        <div class="row align-items-center top-icons">
+                            <div class="col-2 pr-0">
+                                <img src="/static/images/footer-address-1.png" alt="footer address">
+                            </div>
+                            <div class="col-10 pl-0">
+                                <h2>{{ map }}</h2>
+                            </div>
+
+                            <div class="col-2 pr-0">
+                                <img src="/static/images/footer-address-2.png" alt="footer address">
+                            </div>
+                            <div class="col-10 pl-0">
+                                <h2>+998 90 123 45 67</h2>
+                            </div>
+
+                            <div class="col-2 pr-0">
+                                <img src="/static/images/footer-address-3.png" alt="footer address">
+                            </div>
+                            <div class="col-10 pl-0">
+                                <h2>naqshsoft@gmail.com</h2>
+                            </div>
+
+                        </div>
+                        <div class="d-flex align-items-center mt-3">
+                            <a href="https://instagram.com"><img src="/static/images/footer-social-1.png" alt="social"></a>
+                            <a href="https://youtube.com"><img class="ml-3" src="/static/images/footer-social-2.png"
+                                    alt="social"></a>
+                            <a href="https://facebook.com"><img class="ml-3" src="/static/images/footer-social-3.png"
+                                    alt="social"></a>
+                            <a href="https://t.me/"><img class="ml-3" src="/static/images/footer-social-4.png" alt="social"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    
+    <!-- JQuery -->
+    <script src="/static/library/jQuery/jQuery.js"></script>
+    <!-- <script src="/static/library/bootstrap-4.0.0/dist/js/bootstrap.bundle.js"></script> -->
+    <!-- ui Kit -->
+    <script src="/static/library/UIkit/js/uikit.min.js"></script>
+    <!-- AOS js -->
+    <script src="/static/library/aos-master/dist/aos.js"></script>
+    <!-- swiper.js -->
+    <script src="/static/library/swiper/swiper.js"></script>
+
+    <script src="/static/JS/script.js"></script>
+
+    
+<script>
+	$('.lan').on('change', function(){
+        console.log('okk')
+		let lang = $(this).val();
+        console.log(lang)
+		$.ajax({ 
+			method:"GET",
+			url:"/change_lang",
+			data:{current_lang:lang},
+			dataType:"json",
+			success:function(response){
+				if(response.status == 200){
+					location.reload()
+				}
+			}
+		})
+	});
+</script>
+
+
+    
+    
+</body>
+</html>

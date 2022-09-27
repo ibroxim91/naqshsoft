@@ -1,0 +1,818 @@
+@media screen and (max-width: 1600px) {
+
+    /* headers-content */
+    .header-id {
+        overflow-x: hidden;
+    }
+
+    .portfolio-id .portfolio-box .portfolio-box-text h3 {
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 5px;
+    }
+
+    .portfolio-id .portfolio-box .portfolio-box-text p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .team-id .team-text-card .container-fluid {
+        padding: 0px 75px 0 100px;
+
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .container-fluid {
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+
+    .header-id .nav-id ul li a {
+        font-size: 18px;
+        margin-left: 45px;
+    }
+
+    .header-id .headers-content-id .naqsh-right {
+        width: 60%;
+    }
+
+    /* about-us */
+    .about-us-id {
+        padding: 20px 0 35px 0;
+    }
+
+    .about-us-id .about-us-text h2 {
+        font-size: 40px;
+        line-height: 43px;
+    }
+
+    .about-us-id .about-us-text p {
+        font-size: 24px;
+        line-height: 30px;
+        margin: 20px 0 40px 0;
+    }
+
+    .about-us-id .about-us-text a {
+        font-size: 22px;
+        line-height: 29px;
+        color: #FFFFFF;
+        padding: 16px 70px;
+    }
+
+    .about-us-id .about-us-image img {
+        width: 100%;
+    }
+
+
+    /* services */
+    .services-id .services-card-text p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    /* team */
+    .team-id .team-text-card {
+        padding: 50px 0 50px 0;
+    }
+
+    .team-id .team-text-card h2 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .team-id .team-text-card p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .team-id .team-text-card .container-fluid {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .team-id .swiper-content {
+        padding: 20px 0 0px 60px;
+    }
+
+    .team-id .swiper-content .swiper-card {
+        padding: 20px 20px 20px 30px;
+    }
+
+    .team-id .swiper-card .swiper-card-top {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .team-id .swiper-card .swiper-card-top-text {
+        margin-left: 15px;
+    }
+
+    .team-id .swiper-card .swiper-card-top-text h3 {
+        font-size: 24px;
+        line-height: 26px;
+        font-weight: 900;
+    }
+
+    .team-id .swiper-card .swiper-card-top-text p {
+        font-size: 16px;
+        margin-left: 0px;
+    }
+
+    .team-id .swiper-card .swiper-card-main p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+
+    /* portfolio */
+    .portfolio-id .portfolio-box .portfolio-box-text h3 {
+
+        font-size: 20px;
+        line-height: 36px;
+
+    }
+
+    .portfolio-id .portfolio-box .portfolio-box-text p {
+        font-size: 14px;
+        line-height: 20px;
+
+    }
+
+
+    
+    /* contact modal*/
+    .contact-id .my-modal h3{
+        font-size: 34px;
+        line-height: 30px;
+ 
+    }
+ 
+
+
+    /* footer */
+    .footer-id h2 {
+        font-size: 20px;
+        line-height: 20px;
+        margin-top: 15px;
+    }
+
+    .footer-id li a {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .footer-id h3 {
+        margin-bottom: 10px;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .footer-id .footer-address h2 {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+        
+        margin: 5px 0;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .container-fluid {
+        padding-right: 70px;
+        padding-left: 70px;
+    }
+
+    .header-id .nav-id ul li a {
+        font-size: 17px;
+        margin-left: 30px;
+    }
+
+
+
+    /* about-section */
+    .about-id .about-card h3 {
+        padding: 20px 0 15px 0;
+        font-size: 40px;
+        line-height: 41px;
+    }
+
+    .about-id .about-card p {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+
+    /* about-us */
+    .about-us-id {
+        padding: 0 0 50px 0;
+    }
+
+    .about-us-id .about-us-text h2 {
+        font-size: 38px;
+        line-height: 43px;
+    }
+
+    .about-us-id .about-us-text p {
+        font-size: 20px;
+        line-height: 30px;
+        margin: 20px 0 40px 0;
+    }
+
+    .about-us-id .about-us-text a {
+        font-size: 22px;
+        line-height: 29px;
+        padding: 16px 70px;
+    }
+
+    .about-us-id .about-us-image img {
+        width: 100%;
+    }
+
+    .progress-id .progress-box .progress-box-text h3 {
+
+        font-size: 26px;
+        line-height: 30px;
+
+    }
+
+    .progress-id .progress-box .progress-box-text p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+
+    /* team */
+
+
+    .team-id .team-text-card h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .team-id .team-text-card p {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .team-id .team-text-card .container-fluid {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+    .header-id .nav-id .res-nav ul li {
+        margin-bottom: 10px;
+        padding: 30px 0;
+    }
+
+    .header-id .nav-id .res-nav ul li a {
+        font-size: 30px;
+        margin-left: 0px;
+    }
+
+    .header-id .nav-id .res-nav ul {
+        padding-left: 0;
+    }
+
+
+
+
+
+    /* headers-content */
+
+    .header-id .headers-content-id {
+        padding-bottom: 203px;
+    }
+
+    .header-id .headers-content-id .naqsh-right {
+        width: 65%;
+    }
+
+    .header-id .headers-content-id .naqsh-left {
+        width: 25%;
+    }
+
+    .headers-content-id .headers-content-2 h2 {
+        padding-top: 70px;
+        font-size: 150px;
+    }
+
+    .headers-content-id .headers-content-2 h1 {
+        font-size: 50px;
+        line-height: 55px;
+        margin-bottom: 35px;
+    }
+
+    .headers-content-id .headers-content-2 a {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        padding: 12px 45px;
+    }
+
+
+
+
+
+    /* about-section */
+    .about-id .about-card h3 {
+        padding: 20px 0 15px 0;
+        font-size: 50px;
+        line-height: 61px;
+    }
+
+    .about-id .about-card p {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+
+    /* team */
+    .team-id .team-text-card h2 {
+        font-size: 34px;
+
+    }
+
+    .team-id .team-text-card p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .team-id .team-text-card .container-fluid {
+        padding-left: 40px;
+        padding-right: 30px;
+    }
+
+
+
+    /* contact */
+    .contact-id>img {
+
+        width: 60%;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    /* headers-content */
+
+    .header-id .headers-content-id {
+        padding-bottom: 203px;
+    }
+
+    .header-id .headers-content-id .naqsh-right {
+        width: 65%;
+    }
+
+    .header-id .headers-content-id .naqsh-left {
+        width: 34%;
+    }
+
+    .headers-content-id .headers-content-2 h2 {
+        padding-top: 70px;
+        font-size: 120px;
+    }
+
+    .headers-content-id .headers-content-2 h1 {
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 35px;
+    }
+
+    .headers-content-id .headers-content-2 a {
+        font-size: 20px;
+        line-height: 20px;
+        padding: 12px 25px;
+    }
+
+    /* about-section */
+    .about-id .about-card h3 {
+        padding: 20px 0 15px 0;
+        font-size: 50px;
+        line-height: 40px;
+    }
+
+    .about-id .about-card p {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    /* portfolio */
+    .portfolio-id .portfolio-box .portfolio-box-text {
+
+
+        opacity: 1;
+        transform: translateY(0px);
+
+    }
+
+
+
+    /* contact */
+    .contact-id>img {
+
+        width: 40%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .container-fluid {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .nav-id .logo a img {
+        width: 100px;
+    }
+
+    .nav-id .language img {
+        width: 30px;
+        margin-top: -.5px;
+    }
+
+    .nav-id .language .fa-bars {
+        font-size: 34px;
+    }
+
+    .header-id .nav-id .res-nav ul li {
+        padding: 20px 0;
+    }
+
+    .header-id .nav-id .res-nav ul li a {
+        font-size: 24px;
+    }
+
+    /* headers-content */
+    .header-id {
+        overflow-x: hidden;
+    }
+
+    .header-id .headers-content-id {
+        padding-bottom: 253px;
+        padding-top: 200px;
+    }
+
+    .header-id .headers-content-id .naqsh-right {
+        width: 100%;
+        right: -10%;
+    }
+
+    .header-id .headers-content-id .naqsh-left {
+        width: 40%;
+    }
+
+    .headers-content-id .headers-content-2 h2 {
+        padding-top: 70px;
+        font-size: 90px;
+        line-height: 120px;
+    }
+
+    .headers-content-id .headers-content-2 h1 {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 25px;
+    }
+
+    .headers-content-id .headers-content-2 a {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 12px 15px;
+    }
+
+
+    /* about section */
+    .about-id .about-card {
+
+        padding: 40px 50px;
+
+    }
+
+    .about-id .about-card h3 {
+        padding: 25px 0 20px 0;
+        font-size: 30px;
+        line-height: 0px;
+    }
+
+    .about-id .about-card p {
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 300;
+    }
+
+
+    /* about-us */
+    .about-us-id .about-us-text h2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .about-us-id .about-us-text p {
+        font-size: 16px;
+        line-height: 20px;
+        margin: 20px 0 40px 0;
+    }
+
+    .about-us-id .about-us-text a {
+        font-size: 16px;
+        padding: 16px 45px;
+    }
+
+    .about-us-id .about-us-image img {
+        width: 100%;
+    }
+
+
+    /* progress */
+    .progress-id .progress-theme p {
+        font-size: 20px;
+        line-height: 20px;
+        padding-bottom: 15px;
+    }
+
+    .progress-id .progress-theme h2 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .progress-id .progress-box-img img {
+        width: 30%;
+    }
+
+    /* services */
+    .services-id .services-card-text p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    /* team */
+    .team-id .team-text-card {
+        padding-top: 5px;
+        padding-bottom: 25px;
+
+    }
+
+    .team-id .team-text-card h2 {
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+
+    .team-id .team-text-card p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .team-id .team-text-card .container-fluid {
+        padding-left: 40px;
+        padding-right: 30px;
+    }
+
+    .team-id .swiper-content {
+        padding: 20px;
+    }
+
+    /* contact */
+    .contact-id .contact-content>.row .col-12 h2 {
+        font-size: 35px;
+        line-height: 45px;
+        margin-bottom: 40px;
+    }
+
+    .contact-id .submit-form input,
+    .contact-id .submit-form label,
+    .contact-id .submit-form button {
+        display: block;
+        width: 100%;
+    }
+
+    .contact-id .submit-form label {
+        font-size: 18px;
+        width: 90%;
+        margin: 10px auto 20px auto;
+    }
+
+    .contact-id .submit-form input {
+        background: #EFEFEF;
+        border: 3px solid #F4D070;
+        padding: 15px 10px;
+    }
+
+    .contact-id .submit-form button {
+        margin-top: 25px;
+        font-weight: 900;
+        padding: 15px 0;
+        width: 90%;
+        margin: 10px auto 20px auto;
+    }
+
+
+    
+    /* footer */
+    .footer-id h2 {
+        font-size: 20px;
+        line-height: 20px;
+        margin-top: 15px;
+    }
+
+    .footer-id li a {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .footer-id h3 {
+        margin-bottom: 10px;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .footer-id .footer-address h2 {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+        
+        margin: 5px 0;
+    }
+    .footer-id .footer-address .top-icons img{
+        max-width: 70%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 360px) {
+    .container-fluid {
+        padding-right: 20px;
+        padding-left: 10px;
+    }
+
+    .nav-id .logo a img {
+        width: 100px;
+    }
+
+    .nav-id .language img {
+        width: 20px;
+        margin-top: -5px;
+    }
+
+    .nav-id .language .fa-bars {
+        font-size: 24px;
+    }
+
+    .header-id .nav-id .res-nav ul li {
+        padding: 20px 0;
+    }
+
+    .header-id .nav-id .res-nav ul li a {
+        font-size: 24px;
+    }
+
+    /* headers-content */
+
+    .header-id .headers-content-id {
+        padding-bottom: 203px;
+    }
+
+    .header-id .headers-content-id .naqsh-right {
+        width: 85%;
+    }
+
+    .header-id .headers-content-id .naqsh-left {
+        width: 50%;
+    }
+
+    .headers-content-id .headers-content-2 h2 {
+        padding-top: 70px;
+        font-size: 60px;
+        line-height: 90px;
+    }
+
+    .headers-content-id .headers-content-2 h1 {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 25px;
+    }
+
+    .headers-content-id .headers-content-2 a {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 12px 15px;
+    }
+
+    /* contact modal */
+    
+    .contact-id .my-modal h3{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .contact-id .my-modal p{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+
+    /* footer */
+    .footer-id h2 {
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 15px;
+    }
+
+    .footer-id li a {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .footer-id h3 {
+        margin-bottom: 10px;
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .footer-id .footer-address h2 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        
+        margin: 5px 0;
+    }
+    .footer-id .footer-address .top-icons img{
+        max-width: 70%;
+    }
+
+}

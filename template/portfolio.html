@@ -1,0 +1,121 @@
+{% extends 'base.html' %}
+   
+{% block title %} <title>Portfolio</title> {% endblock title%}
+
+
+{% block content %}
+   
+    <!-- portfolio-main -->
+    <div id="portfolio-page" class="portfolio-page-id">
+        <div class="container-fluid">
+
+            <!-- portfolio title -->
+            <div class="portfolio-page-title">
+                <h1 data-aos="fade-right" data-aos-delay="300">{{ portfolio.portfolio.all.0.detail_name }}</h1>
+            
+
+            </div>
+            <!-- portfolio content -->
+            <div class="portfolio-page-content">
+                <div class="row align-items-center">
+                    <!-- left -- img-side -->
+                        <div class="col-12 col-lg-6">
+                            <div class="row">
+                                
+                                {% for p in portfolio.portfolio.all %}
+                               
+                                <!-- first row -->
+                                <div class="col-12">
+                                    <div class="img-box pt-4">
+                                        <img class="big w-100 img-fluid" src="{{ p.image.url }}"
+                                            alt="portfolio image">
+                                    </div>
+                                </div>
+                                <!-- second-row -->
+                                    {% for i in p.detail_portfolio.all  %}
+                                
+                                    <div class="col-4">
+                                        <div class="img-box">
+                                            <img class='small-{{ forloop.counter }}' src="{{ i.image.url }}" alt="dasddadsdas" class="img-fluid">
+                                        </div>
+                                    </div>
+                                    {% endfor %}
+
+                            
+                            </div>
+                        </div>
+                    <!-- right -- text-side -->
+                        <div class="col-12 col-lg-6">
+                            <div class="text-box" data-aos="fade-right" data-aos-delay="400">
+                                <h2>{{ p.title }}</h2>
+                                <p>{{ p.text }}</p>
+                            </div>
+                        </div>
+                   
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <!-- youtube -->
+    <div id="portfolio-youtube" class="portfolio-youtube-id">
+        <div class="container-fluid">
+            <div class="youtube-title">
+                <h2 data-aos="fade-right" data-aos-delay="300">YouTube</h2>
+            </div>
+            <div class="youtube-content text-center">
+                <img data-aos="zoom-in" data-aos-delay="300" src="{{ p.video.url }}" alt="youtube" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    {% endfor %}
+
+
+
+
+    <!-- comfort -->
+    <div id="portfolio-comfort" class="portfolio-comfort-id">
+        <div class="container-fluid">
+            <div class="comfort-title">
+                <h2 data-aos="fade-right" data-aos-delay="300">{{ portfolio.portfolio.all.0.detail_name }}</h2>
+            </div>
+            <div class="comfort-content py-4">
+                <div class="row">
+                    <!-- first -->
+                    
+                    {% for b in portfolio.benefit.all %}
+                    
+                    <div class="col-12 col-lg-6">
+                        <div data-aos="fade-up" data-aos-delay="300" class="comfort-card py-3">
+                            <div class="row align-items-center">
+                                <div class="col-4 col-xl-3 pr-0">
+                                    <img class="img-fluid" src="{{ b.image.url }}" alt="01">
+                                </div>
+                                <div class="col-8 col-xl-9 pl-0">
+                                    <p>{{ b.title }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+
+
+                
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+{% endblock %}

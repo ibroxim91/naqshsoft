@@ -1,0 +1,378 @@
+{% extends 'base.html' %}
+    {% block title %} <title>NAQSH SOFT</title> {% endblock title%}
+
+    {% block content %}
+   
+      <style>
+          .how-to{
+            background: linear-gradient(95.14deg, #E1B35A 0, #F4D070 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 48px;
+    font-weight: 600;
+
+          }
+          .-card .fa{
+            color:  #69d399;
+          }
+          .punkts li{
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29px;
+            opacity: 0.7;
+            padding-bottom: 30px;   
+          }
+      </style>
+
+    
+    <div id="about" class="about-id" style="margin-top: 41px; margin-bottom: 100px;">
+        <div class="container">
+            <div class="about-content">
+                <div class="row">
+                    <div class="col-md-12 my-5">
+                     
+
+                        <div class="text-center about-us-text">
+                            <h2 class="how-to"> <span> Bizning xizmatlarimizdan kimlar foydalanishi mumkin? </span> </h2>
+                        </div>
+                    </div>
+                    <!-- first -->
+    
+                    <div class="col-12 col-sm-6 col-lg-3 text-center text-sm-left ">
+                        <div class="-card" data-aos="flip-right" data-aos-duration="400" data-aos-delay="400">
+                            <div class="card-img text-center">
+                                <i class="fa fa-calculator fa-3x"></i>
+                                <!-- <img src="{{ about.image.url }}" alt="icon-1"> -->
+                            </div>
+                            <div class="about-card-body text-center about-us-text">
+                                <h3></h3>
+                                
+                                <h2>Ulgurchi va chakana sotuv do'konlari</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-3 text-center text-sm-left ">
+                        <div class="-card" data-aos="flip-right" data-aos-duration="400" data-aos-delay="500">
+                            <div class="card-img text-center">
+                                <i class="fa fa-cogs fa-3x"></i>
+                                <!-- <img src="{{ about.image.url }}" alt="icon-1"> -->
+                            </div>
+                            <div class="about-card-body text-center about-us-text">
+                                <h3></h3>
+                                
+                                <h2>Ishlab chiqarish zonalari</h2>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    
+                    <div class="col-12 col-sm-6 col-lg-3 text-center text-sm-left ">
+                        <div class="-card" data-aos="flip-right" data-aos-duration="400" data-aos-delay="600">
+                            <div class="card-img text-center">
+                                <i class="fa fa-users fa-3x"></i>
+                                <!-- <img src="{{ about.image.url }}" alt="icon-1"> -->
+                            </div>
+                            <div class="about-card-body text-center about-us-text">
+                                <h3></h3>
+                                
+                                <h2>Xizmat ko'rsatish bo'limlari</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-3 text-center text-sm-left ">
+                        <div class="-card" data-aos="flip-right" data-aos-duration="400" data-aos-delay="700">
+                            <div class="card-img text-center">
+                                <i class="fa fa-check fa-3x"></i>
+                                <!-- <img src="{{ about.image.url }}" alt="icon-1"> -->
+                            </div>
+                            <div class="about-card-body text-center about-us-text">
+                                <h3></h3>
+                                
+                                <h2>Barcha biznes egalari</h2>
+                            </div>
+                        </div>
+                    </div>
+           
+           
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div id="about" class="about-id mt-4">
+        <div class="container">
+            <div class="about-content">
+                <div class="row">
+                    <div class="col-md-12 text-center about-us-text mb-4">
+                        <h2 class="how-to"> <span> Biz xaqimizda </span> </h2>
+                    </div>
+                    <!-- first -->
+                    {% for about in about_we %}
+                    <div class="col-12 col-sm-6 col-lg-3 text-center text-sm-left">
+                        <div class="about-card" data-aos="flip-left" data-aos-duration="400" data-aos-delay="400">
+                            <div class="card-img">
+                                <img src="{{ about.image.url }}" alt="icon-1">
+                            </div>
+                            <div class="about-card-body">
+                                <h3>{{ about.number }}</h3>
+                                
+                                <p>{{ about.name }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- about-us -->
+    <div id="about-us" class="about-us-id">
+        <div class="container-fluid">
+            <div class="about-us-content">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-6">
+                        <div class="about-us-text">
+                            <h2 data-aos="fade-right" data-aos-duration="500" data-aos-delay="400">
+                                <span>{{ your_business }}</span> 
+                                <!-- {{ to_new_level }} -->
+                            </h2>
+                            <p data-aos="fade-right" data-aos-duration="500" data-aos-delay="450">
+                               <ul data-aos="fade-right" data-aos-duration="500" data-aos-delay="450" class="punkts">
+                                  
+                                  {{ text|safe }}
+
+                               </ul>                            
+                            </p>
+                            <!-- <a data-aos="fade-right" data-aos-duration="500" data-aos-delay="500" href="{% url 'main:portfolio' %}">{{ detail }}</a> -->
+                        </div>
+                    </div>
+                    <div class="d-none d-sm-block col-12 col-lg-6">
+                        <div class="about-us-image" data-aos="fade-right" data-aos-duration="500" data-aos-delay="400">
+                            <img src="/static/images/coffee-main.png" alt="coffee">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Bizning ish jarayoni -->
+    <!-- progress -->
+    <div id="progress" class="progress-id">
+        <div class="container-fluid">
+            <div class="progress-content">
+                <div class="progress-theme text-center" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
+                    <p> 
+                        {{ proccess_title }}
+                    </p>
+                    <h2 class="how-to">  {{ proccess_title_2 }}</h2>
+                </div>
+                <div class="row pt-md-5 pb-md-4">
+                    <!-- first -->
+                    
+                    <div class="col-12 col-md-6 col-lg-2">
+                        <div class="progress-box" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
+                            <div class="progress-box-img">
+                                <img src="/static/images/progress-1.png" alt="progress">
+                            </div>
+                            <div class="progress-box-text">
+                                <h3>Reja</h3>
+                                <p>Talabni o'rganish, baholash va ishni rejalashtirish</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- second -->
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="progress-box" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
+                            <div class="progress-box-img">
+                                <img src="/static/images/progress-2.png" alt="progress">
+                            </div>
+                            <div class="progress-box-text">
+                                <h3>Texnik vazifa</h3>
+                                <p>Texnik topshiriq va texnik shartlarni ishlab chiqish</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- third -->
+                    <div class="col-12 col-md-6 col-lg-2">
+                        <div class="progress-box" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
+                            <div class="progress-box-img">
+                                <img src="/static/images/progress-3.png" alt="progress">
+                            </div>
+                            <div class="progress-box-text">
+                                <h3>Tayyorlash</h3>
+                                <p>Texnika vazifa asosida dastur tayyorlash</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fourth -->
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="progress-box" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
+                            <div class="progress-box-img">
+                                <img src="/static/images/progress-4.png" alt="progress">
+                            </div>
+                            <div class="progress-box-text">
+                                <h3>Sinov</h3>
+                                <p>Ishlab chiqilgan dastur sifatini test qilish</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fivth -->
+                    <div class="col-12 offset-md-3 col-md-6 offset-lg-0 col-lg-2">
+                        <div class="progress-box" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
+                            <div class="progress-box-img">
+                                <img src="/static/images/progress-5.png" alt="progress">
+                            </div>
+                            <div class="progress-box-text">
+                                <h3>Ishga tushirish </h3>
+                                <p>Dasturni o'rnatish va ishga tushirish </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- services -->
+    <div id="services" class="services-id">
+        <div class="container-fluid">
+            <div class="services-theme text-center text-md-left">
+                <h2 data-aos="fade-right" data-aos-duration="500" data-aos-delay="300">{{ service }}</h2>
+            </div>
+            <div class="row text-center text-lg-left mb-md-5">
+                <!-- first -->
+                {% for service in services %}
+                <div class="col-12 col-md-6 col-xl-3 mb-5 mb-xl-0">
+                    <div class="services-card" data-aos="fade-up" data-aos-duration="500" data-aos-delay="400">
+                        <div class="services-card-image">
+                            <img src="{{ service.image.url }}" alt="">
+                        </div>
+                        <div class="services-card-text">
+                            <h3>{{ service.name }}</h3>
+                            <p>{{ service.title }}</p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+               
+            </div>
+            <div class="services-btn text-center text-md-left">
+                <a href="{% url 'main:portfolio' %}">{{ detail }}</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- our team -->
+    <div id="team" class="team-id">
+
+        <div class="team-content">
+            <div class="row">
+                <!-- team text -->
+                <div class="col-12 col-md-4 pr-0">
+                    <div class="team-text-card text-center text-md-left">
+                        <div class="container-fluid" data-aos="fade-right" data-aos-duration="500" data-aos-delay="300">
+                            <h2>{{ our_comunity }}</h2>
+                            <p>{{ comunity_title }}</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- swiper -->
+                <div class="col-12 col-md-8 pl-0 pr-0">
+                    <div class="swiper-content px-5 py-sm-5 py-xl-0 d-flex align-items-center">
+                        <!-- swipes -->
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <!-- first-slide -->
+                                {% for user in comunity %}
+                                <div class="swiper-slide">
+                                    <!-- swiper-card -->
+                                    <div class="swiper-card">
+                                        <!-- card-top -->
+                                        <div class="swiper-card-top">
+                                            <div class="swiper-card-top-img">
+                                                <img src="{{ user.image.url }}" alt="person-group">
+                                            </div>
+                                            <div class="swiper-card-top-text">
+                                                <h3>{{ user.full_name }}</h3>
+                                                <p>{{ user.job }}</p>
+                                            </div>
+                                        </div>
+                                        <!-- card-body -->
+                                        <div class="swiper-card-main">
+                                            <p>{{ user.title }}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                {% endfor %}
+
+                                <!-- slides end -- >
+                            </div>
+                            <!-- <div class="swiper-pagination"></div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- portfolio -->
+    <div id="portfolio" class="portfolio-id">
+        <div class="container-fluid">
+            <div class="portfolio-content">
+                <!-- portfolio title -->
+                <div class="portfolio-theme text-center text-md-left">
+                    <h2 data-aos="fade-right" data-aos-duration="400" data-aos-delay="400">{{ portfolioo }}</h2>
+                </div>
+                <!-- portdolio main -->
+                <div class="portfolio-main">
+                    <!-- first row -->
+                    <div class="row">
+                        <!-- first -->
+                        {% for p in portfolio %}
+                        <div class="col-12 col-md-6 col-xl-3">
+                            <div class="portfolio-box" data-aos="flip-left" data-aos-duration="400"
+                                data-aos-delay="400">
+                                <div class="portfolio-box-img">
+                                    <img src="{{ p.image.url }}" alt="portfolio" >
+                                    <div class="portfolio-box-text">
+                                        <h3><a class="portfolio_link" href="{% url 'main:detail' p.pk%}" style="text-decoration: none ; color: rgb(177, 252, 255);"> {{ p.portfolio_name}}</a></h3>
+                                        <p>{{ p.title }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {% endfor %}
+                     
+                    </div>
+
+                    <div class="row">
+                        <!-- btn -->
+                        <div
+                            class="col-12 col-md-6 col-xl-3 d-flex align-items-center justify-content-left pt-4 pt-md-0">
+                            <div class="portfolio-btn">
+                                <a href="{% url 'main:portfolio' %}">{{ detail }}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+{% endblock %}
