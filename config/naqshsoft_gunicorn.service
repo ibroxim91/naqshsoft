@@ -3,10 +3,10 @@ Description=gunicorn daemon
 After=network.target
 
 [Service]
-User=ibroxim
+User=root
 Group=www-data
 WorkingDirectory=/home/ibroxim/projects/naqshsoft
-ExecStart=/home/ibroxim/projects/naqshsoft/venv/bin --access-logfile - --workers 3 --bind unix:/home/ibroxim/projects/naqshsoft/naqshsoft.sock naqshsoft.wsgi:application
+ExecStart=/home/ibroxim/projects/naqshsoft/venv/bin/gunicorn --access-logfile - --workers 3 --bind unix:/home/ibroxim/projects/naqshsoft/naqshsoft.sock naqshsoft.wsgi:application
 
 [Install]
 WantedBy=multi-user.target

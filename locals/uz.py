@@ -30,9 +30,28 @@ uz = {
     'map':'Andijon viloyati, Andijon shahar Buyuk Turon 21, Avtovokzal ortida.',
     'footer_title_1':"NAQSH soft raqamli marketing",
     'footer_title_1':"agentligining rasmiy web sahifasi",
+     
      'read_more':"Batafsil" ,
      "proccess_title":"Siz uchun kerakli bo'lgan dastur qanday tayyorlanadi ? ",
      "proccess_title_2":"Bizning ish jarayoni ",
+     
+     "how_to":"Bizning xizmatlarimizdan kimlar foydalanishi mumkin?",
+     "shops":"Ulgurchi va chakana sotuv do'konlari",
+     "production":"Ishlab chiqarish zonalari",
+     "services_":"Xizmat ko'rsatish bo'limlari",
+     "all":"Barcha biznes egalari",
+     "plan":"Reja",
+     "plan_text":"Talabni o'rganish, baholash va ishni rejalashtirish",
+     "tz":"Texnik vazifa",
+     "tz_text":"Texnik topshiriq va texnik shartlarni ishlab chiqish",
+     "proccess":"Tayyorlash",
+     "proccess_text":"Texnika vazifa asosida dastur tayyorlash",
+     "test":"Sinov",
+     "test_text":"Ishlab chiqilgan dastur sifatini test qilish",
+     "run":"Ishga tushirish",
+     "run_text":"Dasturni o'rnatish va ishga tushirish",
+#      "text":"",
+
       
 
 

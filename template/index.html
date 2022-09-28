@@ -34,7 +34,7 @@
                      
 
                         <div class="text-center about-us-text">
-                            <h2 class="how-to"> <span> Bizning xizmatlarimizdan kimlar foydalanishi mumkin? </span> </h2>
+                            <h2 class="how-to"> <span> {{ how_to }} </span> </h2>
                         </div>
                     </div>
                     <!-- first -->
@@ -48,7 +48,7 @@
                             <div class="about-card-body text-center about-us-text">
                                 <h3></h3>
                                 
-                                <h2>Ulgurchi va chakana sotuv do'konlari</h2>
+                                <h2> {{ shops }}</h2>
                             </div>
                         </div>
                     </div>
@@ -62,7 +62,7 @@
                             <div class="about-card-body text-center about-us-text">
                                 <h3></h3>
                                 
-                                <h2>Ishlab chiqarish zonalari</h2>
+                                <h2> {{ production }} </h2>
                             </div>
                         </div>
                     </div>
@@ -78,7 +78,7 @@
                             <div class="about-card-body text-center about-us-text">
                                 <h3></h3>
                                 
-                                <h2>Xizmat ko'rsatish bo'limlari</h2>
+                                <h2> {{ services_ }}</h2>
                             </div>
                         </div>
                     </div>
@@ -92,7 +92,7 @@
                             <div class="about-card-body text-center about-us-text">
                                 <h3></h3>
                                 
-                                <h2>Barcha biznes egalari</h2>
+                                <h2> {{ all }}</h2>
                             </div>
                         </div>
                     </div>
@@ -110,7 +110,7 @@
             <div class="about-content">
                 <div class="row">
                     <div class="col-md-12 text-center about-us-text mb-4">
-                        <h2 class="how-to"> <span> Biz xaqimizda </span> </h2>
+                        <h2 class="how-to"> <span> {{ about_us }} </span> </h2>
                     </div>
                     <!-- first -->
                     {% for about in about_we %}
@@ -185,8 +185,8 @@
                                 <img src="/static/images/progress-1.png" alt="progress">
                             </div>
                             <div class="progress-box-text">
-                                <h3>Reja</h3>
-                                <p>Talabni o'rganish, baholash va ishni rejalashtirish</p>
+                                <h3>{{ plan }}</h3>
+                                <p>{{ plan_text }}</p>
                             </div>
                         </div>
                     </div>
@@ -197,8 +197,8 @@
                                 <img src="/static/images/progress-2.png" alt="progress">
                             </div>
                             <div class="progress-box-text">
-                                <h3>Texnik vazifa</h3>
-                                <p>Texnik topshiriq va texnik shartlarni ishlab chiqish</p>
+                                <h3>{{ tz }}</h3>
+                                <p>{{ tz_text }}</p>
                             </div>
                         </div>
                     </div>
@@ -209,8 +209,8 @@
                                 <img src="/static/images/progress-3.png" alt="progress">
                             </div>
                             <div class="progress-box-text">
-                                <h3>Tayyorlash</h3>
-                                <p>Texnika vazifa asosida dastur tayyorlash</p>
+                                <h3>{{ proccess }}</h3>
+                                <p>{{ proccess_text }}</p>
                             </div>
                         </div>
                     </div>
@@ -221,8 +221,8 @@
                                 <img src="/static/images/progress-4.png" alt="progress">
                             </div>
                             <div class="progress-box-text">
-                                <h3>Sinov</h3>
-                                <p>Ishlab chiqilgan dastur sifatini test qilish</p>
+                                <h3>{{ test }}</h3>
+                                <p>{{ test_text }}</p>
                             </div>
                         </div>
                     </div>
@@ -233,8 +233,8 @@
                                 <img src="/static/images/progress-5.png" alt="progress">
                             </div>
                             <div class="progress-box-text">
-                                <h3>Ishga tushirish </h3>
-                                <p>Dasturni o'rnatish va ishga tushirish </p>
+                                <h3> {{ run }}</h3>
+                                <p> {{ run_text }} </p>
                             </div>
                         </div>
                     </div>
