@@ -2,3 +2,5 @@
 
 *.pyc
 __pycache__
+naqshsoft_gunicorn.service
+nginx.conf
